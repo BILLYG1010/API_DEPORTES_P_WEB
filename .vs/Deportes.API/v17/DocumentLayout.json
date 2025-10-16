@@ -1,0 +1,161 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\Deportes.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67924A1B-9DE7-45DB-8025-F74E08543C90}|Deportes.TEST.Api\\Deportes.TEST.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.test.api\\deportes.test.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{67924A1B-9DE7-45DB-8025-F74E08543C90}|Deportes.TEST.Api\\Deportes.TEST.Api.csproj|solutionrelative:deportes.test.api\\deportes.test.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBA86128-3CF3-419E-AAA7-AF617A7215D2}|Deportes.BLL.Api\\Deportes.BLL.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.bll.api\\deportes.bll.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EBA86128-3CF3-419E-AAA7-AF617A7215D2}|Deportes.BLL.Api\\Deportes.BLL.Api.csproj|solutionrelative:deportes.bll.api\\deportes.bll.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67924A1B-9DE7-45DB-8025-F74E08543C90}|Deportes.TEST.Api\\Deportes.TEST.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.test.api\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67924A1B-9DE7-45DB-8025-F74E08543C90}|Deportes.TEST.Api\\Deportes.TEST.Api.csproj|solutionrelative:deportes.test.api\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0170F7A5-8D70-44DD-8991-58A51FD9A777}|Deportes.BSV.Api\\Deportes.BSV.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.bsv.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0170F7A5-8D70-44DD-8991-58A51FD9A777}|Deportes.BSV.Api\\Deportes.BSV.Api.csproj|solutionrelative:deportes.bsv.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBA86128-3CF3-419E-AAA7-AF617A7215D2}|Deportes.BLL.Api\\Deportes.BLL.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.bll.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBA86128-3CF3-419E-AAA7-AF617A7215D2}|Deportes.BLL.Api\\Deportes.BLL.Api.csproj|solutionrelative:deportes.bll.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.dto.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|solutionrelative:deportes.dto.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A36F9D9C-1347-4FBE-AA2B-019EE45CF76E}|Deportes.DAL.Api\\Deportes.DAL.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.dal.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36F9D9C-1347-4FBE-AA2B-019EE45CF76E}|Deportes.DAL.Api\\Deportes.DAL.Api.csproj|solutionrelative:deportes.dal.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1787E8C-086D-4D99-8562-0E0CE734AA75}|Deportes.CSV.Api\\Deportes.CSV.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.csv.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1787E8C-086D-4D99-8562-0E0CE734AA75}|Deportes.CSV.Api\\Deportes.CSV.Api.csproj|solutionrelative:deportes.csv.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.BSV.Api\\Class1.cs",
+              "RelativeDocumentMoniker": "Deportes.BSV.Api\\Class1.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.BSV.Api\\Class1.cs",
+              "RelativeToolTip": "Deportes.BSV.Api\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T01:03:50.264Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Deportes.TEST.Api",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.TEST.Api\\Deportes.TEST.Api.csproj",
+              "RelativeDocumentMoniker": "Deportes.TEST.Api\\Deportes.TEST.Api.csproj",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.TEST.Api\\Deportes.TEST.Api.csproj",
+              "RelativeToolTip": "Deportes.TEST.Api\\Deportes.TEST.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-16T01:10:53.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Deportes.BLL.Api",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.BLL.Api\\Deportes.BLL.Api.csproj",
+              "RelativeDocumentMoniker": "Deportes.BLL.Api\\Deportes.BLL.Api.csproj",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.BLL.Api\\Deportes.BLL.Api.csproj",
+              "RelativeToolTip": "Deportes.BLL.Api\\Deportes.BLL.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-16T01:08:34.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.TEST.Api\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Deportes.TEST.Api\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.TEST.Api\\UnitTest1.cs",
+              "RelativeToolTip": "Deportes.TEST.Api\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T01:05:29.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.BLL.Api\\Class1.cs",
+              "RelativeDocumentMoniker": "Deportes.BLL.Api\\Class1.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.BLL.Api\\Class1.cs",
+              "RelativeToolTip": "Deportes.BLL.Api\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T01:03:02.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\Class1.cs",
+              "RelativeDocumentMoniker": "Deportes.DTO.Api\\Class1.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\Class1.cs",
+              "RelativeToolTip": "Deportes.DTO.Api\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T01:02:39.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DAL.Api\\Class1.cs",
+              "RelativeDocumentMoniker": "Deportes.DAL.Api\\Class1.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DAL.Api\\Class1.cs",
+              "RelativeToolTip": "Deportes.DAL.Api\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T01:02:10.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.CSV.Api\\Class1.cs",
+              "RelativeDocumentMoniker": "Deportes.CSV.Api\\Class1.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.CSV.Api\\Class1.cs",
+              "RelativeToolTip": "Deportes.CSV.Api\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T01:01:50.567Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

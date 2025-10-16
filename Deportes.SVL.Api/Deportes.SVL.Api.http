@@ -1,0 +1,6 @@
+@Deportes.SVL.Api_HostAddress = http://localhost:5224
+
+GET {{Deportes.SVL.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
