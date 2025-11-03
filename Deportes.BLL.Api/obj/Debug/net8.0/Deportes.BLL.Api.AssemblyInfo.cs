@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Deportes.BLL.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc81a449e68a840a743803684e308183eaa080f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Deportes.BLL.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Deportes.BLL.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

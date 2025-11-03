@@ -3,36 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\Deportes.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{67924A1B-9DE7-45DB-8025-F74E08543C90}|Deportes.TEST.Api\\Deportes.TEST.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.test.api\\deportes.test.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{67924A1B-9DE7-45DB-8025-F74E08543C90}|Deportes.TEST.Api\\Deportes.TEST.Api.csproj|solutionrelative:deportes.test.api\\deportes.test.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A36F9D9C-1347-4FBE-AA2B-019EE45CF76E}|Deportes.DAL.Api\\Deportes.DAL.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.dal.api\\deportes.dal.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A36F9D9C-1347-4FBE-AA2B-019EE45CF76E}|Deportes.DAL.Api\\Deportes.DAL.Api.csproj|solutionrelative:deportes.dal.api\\deportes.dal.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBA86128-3CF3-419E-AAA7-AF617A7215D2}|Deportes.BLL.Api\\Deportes.BLL.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.bll.api\\deportes.bll.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{EBA86128-3CF3-419E-AAA7-AF617A7215D2}|Deportes.BLL.Api\\Deportes.BLL.Api.csproj|solutionrelative:deportes.bll.api\\deportes.bll.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.dto.api\\models\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|solutionrelative:deportes.dto.api\\models\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67924A1B-9DE7-45DB-8025-F74E08543C90}|Deportes.TEST.Api\\Deportes.TEST.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.test.api\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67924A1B-9DE7-45DB-8025-F74E08543C90}|Deportes.TEST.Api\\Deportes.TEST.Api.csproj|solutionrelative:deportes.test.api\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A36F9D9C-1347-4FBE-AA2B-019EE45CF76E}|Deportes.DAL.Api\\Deportes.DAL.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.dal.api\\entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36F9D9C-1347-4FBE-AA2B-019EE45CF76E}|Deportes.DAL.Api\\Deportes.DAL.Api.csproj|solutionrelative:deportes.dal.api\\entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.dto.api\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|solutionrelative:deportes.dto.api\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A36F9D9C-1347-4FBE-AA2B-019EE45CF76E}|Deportes.DAL.Api\\Deportes.DAL.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.dal.api\\entities\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36F9D9C-1347-4FBE-AA2B-019EE45CF76E}|Deportes.DAL.Api\\Deportes.DAL.Api.csproj|solutionrelative:deportes.dal.api\\entities\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.dto.api\\models\\detalle_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|solutionrelative:deportes.dto.api\\models\\detalle_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A36F9D9C-1347-4FBE-AA2B-019EE45CF76E}|Deportes.DAL.Api\\Deportes.DAL.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.dal.api\\entities\\detalle_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36F9D9C-1347-4FBE-AA2B-019EE45CF76E}|Deportes.DAL.Api\\Deportes.DAL.Api.csproj|solutionrelative:deportes.dal.api\\entities\\detalle_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.dto.api\\models\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|solutionrelative:deportes.dto.api\\models\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A36F9D9C-1347-4FBE-AA2B-019EE45CF76E}|Deportes.DAL.Api\\Deportes.DAL.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.dal.api\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36F9D9C-1347-4FBE-AA2B-019EE45CF76E}|Deportes.DAL.Api\\Deportes.DAL.Api.csproj|solutionrelative:deportes.dal.api\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.dto.api\\models\\biitacora_certificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|solutionrelative:deportes.dto.api\\models\\biitacora_certificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A36F9D9C-1347-4FBE-AA2B-019EE45CF76E}|Deportes.DAL.Api\\Deportes.DAL.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.dal.api\\entities\\bitacora_certificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36F9D9C-1347-4FBE-AA2B-019EE45CF76E}|Deportes.DAL.Api\\Deportes.DAL.Api.csproj|solutionrelative:deportes.dal.api\\entities\\bitacora_certificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.dto.api\\responsefiitrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|solutionrelative:deportes.dto.api\\responsefiitrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.dto.api\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|solutionrelative:deportes.dto.api\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.dto.api\\models\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|solutionrelative:deportes.dto.api\\models\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.dto.api\\models\\roldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|solutionrelative:deportes.dto.api\\models\\roldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.dto.api\\deportes.dto.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|solutionrelative:deportes.dto.api\\deportes.dto.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41548C3D-C75C-4AF0-A2C4-22585A16224B}|Deportes.SVL.Api\\Deportes.SVL.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.svl.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{41548C3D-C75C-4AF0-A2C4-22585A16224B}|Deportes.SVL.Api\\Deportes.SVL.Api.csproj|solutionrelative:deportes.svl.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0170F7A5-8D70-44DD-8991-58A51FD9A777}|Deportes.BSV.Api\\Deportes.BSV.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.bsv.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0170F7A5-8D70-44DD-8991-58A51FD9A777}|Deportes.BSV.Api\\Deportes.BSV.Api.csproj|solutionrelative:deportes.bsv.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBA86128-3CF3-419E-AAA7-AF617A7215D2}|Deportes.BLL.Api\\Deportes.BLL.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.bll.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBA86128-3CF3-419E-AAA7-AF617A7215D2}|Deportes.BLL.Api\\Deportes.BLL.Api.csproj|solutionrelative:deportes.bll.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67924A1B-9DE7-45DB-8025-F74E08543C90}|Deportes.TEST.Api\\Deportes.TEST.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.test.api\\deportes.test.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{67924A1B-9DE7-45DB-8025-F74E08543C90}|Deportes.TEST.Api\\Deportes.TEST.Api.csproj|solutionrelative:deportes.test.api\\deportes.test.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.dto.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A4B6752-F9BB-4058-805E-B4EC7B4423CF}|Deportes.DTO.Api\\Deportes.DTO.Api.csproj|solutionrelative:deportes.dto.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A36F9D9C-1347-4FBE-AA2B-019EE45CF76E}|Deportes.DAL.Api\\Deportes.DAL.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.dal.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A36F9D9C-1347-4FBE-AA2B-019EE45CF76E}|Deportes.DAL.Api\\Deportes.DAL.Api.csproj|solutionrelative:deportes.dal.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1787E8C-086D-4D99-8562-0E0CE734AA75}|Deportes.CSV.Api\\Deportes.CSV.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.csv.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1787E8C-086D-4D99-8562-0E0CE734AA75}|Deportes.CSV.Api\\Deportes.CSV.Api.csproj|solutionrelative:deportes.csv.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67924A1B-9DE7-45DB-8025-F74E08543C90}|Deportes.TEST.Api\\Deportes.TEST.Api.csproj|c:\\users\\hp\\source\\repos\\deportes.api\\deportes.test.api\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67924A1B-9DE7-45DB-8025-F74E08543C90}|Deportes.TEST.Api\\Deportes.TEST.Api.csproj|solutionrelative:deportes.test.api\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +94,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.BSV.Api\\Class1.cs",
               "RelativeDocumentMoniker": "Deportes.BSV.Api\\Class1.cs",
@@ -55,33 +103,19 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-16T01:03:50.264Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Deportes.TEST.Api",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.TEST.Api\\Deportes.TEST.Api.csproj",
-              "RelativeDocumentMoniker": "Deportes.TEST.Api\\Deportes.TEST.Api.csproj",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.TEST.Api\\Deportes.TEST.Api.csproj",
-              "RelativeToolTip": "Deportes.TEST.Api\\Deportes.TEST.Api.csproj",
+              "Title": "Deportes.DAL.Api",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DAL.Api\\Deportes.DAL.Api.csproj",
+              "RelativeDocumentMoniker": "Deportes.DAL.Api\\Deportes.DAL.Api.csproj",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DAL.Api\\Deportes.DAL.Api.csproj",
+              "RelativeToolTip": "Deportes.DAL.Api\\Deportes.DAL.Api.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-16T01:10:53.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Deportes.BLL.Api",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.BLL.Api\\Deportes.BLL.Api.csproj",
-              "RelativeDocumentMoniker": "Deportes.BLL.Api\\Deportes.BLL.Api.csproj",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.BLL.Api\\Deportes.BLL.Api.csproj",
-              "RelativeToolTip": "Deportes.BLL.Api\\Deportes.BLL.Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-16T01:08:34.318Z",
+              "WhenOpened": "2025-11-03T07:28:51.897Z",
               "EditorCaption": ""
             },
             {
@@ -91,6 +125,213 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "producto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DAL.Api\\Entities\\producto.cs",
+              "RelativeDocumentMoniker": "Deportes.DAL.Api\\Entities\\producto.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DAL.Api\\Entities\\producto.cs",
+              "RelativeToolTip": "Deportes.DAL.Api\\Entities\\producto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T22:51:38.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "factura.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DAL.Api\\Entities\\factura.cs",
+              "RelativeDocumentMoniker": "Deportes.DAL.Api\\Entities\\factura.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DAL.Api\\Entities\\factura.cs",
+              "RelativeToolTip": "Deportes.DAL.Api\\Entities\\factura.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T22:50:29.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "detalle_factura.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DAL.Api\\Entities\\detalle_factura.cs",
+              "RelativeDocumentMoniker": "Deportes.DAL.Api\\Entities\\detalle_factura.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DAL.Api\\Entities\\detalle_factura.cs",
+              "RelativeToolTip": "Deportes.DAL.Api\\Entities\\detalle_factura.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T22:49:27.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "cliente.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DAL.Api\\Entities\\cliente.cs",
+              "RelativeDocumentMoniker": "Deportes.DAL.Api\\Entities\\cliente.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DAL.Api\\Entities\\cliente.cs",
+              "RelativeToolTip": "Deportes.DAL.Api\\Entities\\cliente.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwCgAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T22:47:51.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "biitacora_certificacion.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\Models\\biitacora_certificacion.cs",
+              "RelativeDocumentMoniker": "Deportes.DTO.Api\\Models\\biitacora_certificacion.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\Models\\biitacora_certificacion.cs",
+              "RelativeToolTip": "Deportes.DTO.Api\\Models\\biitacora_certificacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T22:41:16.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "detalle_factura.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\Models\\detalle_factura.cs",
+              "RelativeDocumentMoniker": "Deportes.DTO.Api\\Models\\detalle_factura.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\Models\\detalle_factura.cs",
+              "RelativeToolTip": "Deportes.DTO.Api\\Models\\detalle_factura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T22:40:44.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\Models\\ProductoDTO.cs",
+              "RelativeDocumentMoniker": "Deportes.DTO.Api\\Models\\ProductoDTO.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\Models\\ProductoDTO.cs",
+              "RelativeToolTip": "Deportes.DTO.Api\\Models\\ProductoDTO.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T02:58:47.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "bitacora_certificacion.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DAL.Api\\Entities\\bitacora_certificacion.cs",
+              "RelativeDocumentMoniker": "Deportes.DAL.Api\\Entities\\bitacora_certificacion.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DAL.Api\\Entities\\bitacora_certificacion.cs",
+              "RelativeToolTip": "Deportes.DAL.Api\\Entities\\bitacora_certificacion.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T22:45:58.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Factura.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\Models\\Factura.cs",
+              "RelativeDocumentMoniker": "Deportes.DTO.Api\\Models\\Factura.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\Models\\Factura.cs",
+              "RelativeToolTip": "Deportes.DTO.Api\\Models\\Factura.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T22:40:17.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ResponseFIitroDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\ResponseFIitroDTO.cs",
+              "RelativeDocumentMoniker": "Deportes.DTO.Api\\ResponseFIitroDTO.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\ResponseFIitroDTO.cs",
+              "RelativeToolTip": "Deportes.DTO.Api\\ResponseFIitroDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T22:43:07.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\ResponseDTO.cs",
+              "RelativeDocumentMoniker": "Deportes.DTO.Api\\ResponseDTO.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\ResponseDTO.cs",
+              "RelativeToolTip": "Deportes.DTO.Api\\ResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T22:42:31.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClienteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\Models\\ClienteDTO.cs",
+              "RelativeDocumentMoniker": "Deportes.DTO.Api\\Models\\ClienteDTO.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\Models\\ClienteDTO.cs",
+              "RelativeToolTip": "Deportes.DTO.Api\\Models\\ClienteDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T02:57:56.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\Models\\UsuarioDTO.cs",
+              "RelativeDocumentMoniker": "Deportes.DTO.Api\\Models\\UsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\Models\\UsuarioDTO.cs",
+              "RelativeToolTip": "Deportes.DTO.Api\\Models\\UsuarioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T02:57:25.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RolDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\Models\\RolDTO.cs",
+              "RelativeDocumentMoniker": "Deportes.DTO.Api\\Models\\RolDTO.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\Models\\RolDTO.cs",
+              "RelativeToolTip": "Deportes.DTO.Api\\Models\\RolDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T02:56:55.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Deportes.DTO.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\Deportes.DTO.Api.csproj",
+              "RelativeDocumentMoniker": "Deportes.DTO.Api\\Deportes.DTO.Api.csproj",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\Deportes.DTO.Api.csproj",
+              "RelativeToolTip": "Deportes.DTO.Api\\Deportes.DTO.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-24T02:55:28.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.SVL.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Deportes.SVL.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.SVL.Api\\appsettings.json",
+              "RelativeToolTip": "Deportes.SVL.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T02:48:51.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Deportes.TEST.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.TEST.Api\\Deportes.TEST.Api.csproj",
+              "RelativeDocumentMoniker": "Deportes.TEST.Api\\Deportes.TEST.Api.csproj",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.TEST.Api\\Deportes.TEST.Api.csproj",
+              "RelativeToolTip": "Deportes.TEST.Api\\Deportes.TEST.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-16T01:10:53.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.TEST.Api\\UnitTest1.cs",
               "RelativeDocumentMoniker": "Deportes.TEST.Api\\UnitTest1.cs",
@@ -98,60 +339,7 @@
               "RelativeToolTip": "Deportes.TEST.Api\\UnitTest1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T01:05:29.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.BLL.Api\\Class1.cs",
-              "RelativeDocumentMoniker": "Deportes.BLL.Api\\Class1.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.BLL.Api\\Class1.cs",
-              "RelativeToolTip": "Deportes.BLL.Api\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T01:03:02.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\Class1.cs",
-              "RelativeDocumentMoniker": "Deportes.DTO.Api\\Class1.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DTO.Api\\Class1.cs",
-              "RelativeToolTip": "Deportes.DTO.Api\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T01:02:39.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DAL.Api\\Class1.cs",
-              "RelativeDocumentMoniker": "Deportes.DAL.Api\\Class1.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.DAL.Api\\Class1.cs",
-              "RelativeToolTip": "Deportes.DAL.Api\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T01:02:10.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.CSV.Api\\Class1.cs",
-              "RelativeDocumentMoniker": "Deportes.CSV.Api\\Class1.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Deportes.API\\Deportes.CSV.Api\\Class1.cs",
-              "RelativeToolTip": "Deportes.CSV.Api\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T01:01:50.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T01:05:29.073Z"
             }
           ]
         }
