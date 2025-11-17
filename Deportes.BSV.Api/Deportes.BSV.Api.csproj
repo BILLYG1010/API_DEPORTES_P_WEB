@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <!-- Añadir referencia al proyecto que contiene Deportes.CBL.Api.V1 -->
+    <ProjectReference Include="..\Deportes.CBL.Api\Deportes.CBL.Api.csproj" />
+  </ItemGroup>
 </Project>

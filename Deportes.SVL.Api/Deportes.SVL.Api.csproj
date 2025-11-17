@@ -4,7 +4,13 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+	  <EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
+<GenerateDocumentationFile>true</GenerateDocumentationFile>
+<NoWarn>${NoWarn}; 1591</NoWarn>
+</PropertyGroup>	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <NoWarn>${NoWarn}; 1591</NoWarn>
+  
+ 
 
   <ItemGroup>
     <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="8.1.0" />

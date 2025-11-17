@@ -1,0 +1,12 @@
+C:\Users\HP\source\repos\Deportes.API\Deportes.DTO.Api\bin\Debug\net8.0\Deportes.DTO.Api.deps.json
+C:\Users\HP\source\repos\Deportes.API\Deportes.DTO.Api\bin\Debug\net8.0\Deportes.DTO.Api.dll
+C:\Users\HP\source\repos\Deportes.API\Deportes.DTO.Api\bin\Debug\net8.0\Deportes.DTO.Api.pdb
+C:\Users\HP\source\repos\Deportes.API\Deportes.DTO.Api\obj\Debug\net8.0\Deportes.DTO.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\Deportes.API\Deportes.DTO.Api\obj\Debug\net8.0\Deportes.DTO.Api.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Deportes.API\Deportes.DTO.Api\obj\Debug\net8.0\Deportes.DTO.Api.AssemblyInfo.cs
+C:\Users\HP\source\repos\Deportes.API\Deportes.DTO.Api\obj\Debug\net8.0\Deportes.DTO.Api.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Deportes.API\Deportes.DTO.Api\obj\Debug\net8.0\Deportes.DTO.Api.sourcelink.json
+C:\Users\HP\source\repos\Deportes.API\Deportes.DTO.Api\obj\Debug\net8.0\Deportes.DTO.Api.dll
+C:\Users\HP\source\repos\Deportes.API\Deportes.DTO.Api\obj\Debug\net8.0\refint\Deportes.DTO.Api.dll
+C:\Users\HP\source\repos\Deportes.API\Deportes.DTO.Api\obj\Debug\net8.0\Deportes.DTO.Api.pdb
+C:\Users\HP\source\repos\Deportes.API\Deportes.DTO.Api\obj\Debug\net8.0\ref\Deportes.DTO.Api.dll

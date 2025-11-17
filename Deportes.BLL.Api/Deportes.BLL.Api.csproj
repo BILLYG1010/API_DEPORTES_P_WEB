@@ -11,4 +11,12 @@
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Deportes.BSV.Api\Deportes.BSV.Api.csproj" />
+    <ProjectReference Include="..\Deportes.CBL.Api\Deportes.CBL.Api.csproj" />
+    <ProjectReference Include="..\Deportes.CSV.Api\Deportes.CSV.Api.csproj" />
+    <ProjectReference Include="..\Deportes.DAL.Api\Deportes.DAL.Api.csproj" />
+    <ProjectReference Include="..\Deportes.DTO.Api\Deportes.DTO.Api.csproj" />
+  </ItemGroup>
+
 </Project>
