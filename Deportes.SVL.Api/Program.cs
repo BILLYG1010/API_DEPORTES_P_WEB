@@ -1,66 +1,51 @@
-using Deportes.SVL.Api.Config;
-using Deportes.BLL.Api.Config;
-using Deportes.DAL.Api;
-using Deportes.BSV.Api.Config;
-
-
-
-
-
-using System.Reflection;
-using Asp.Versioning.ApiExplorer;
-
-using Microsoft.Extensions.DependencyInjection;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
-const string CORS_POLICY = "CorsPolicy";
-var corsValue = builder.Configuration.GetSection(CORS_POLICY).Value;
 
-// Add services to the container.
+// 1. CORS básico (para desarrollo)
+const string CORS_POLICY = "AllowAll";
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(CORS_POLICY, policy =>
+    {
+        policy
+            .AllowAnyOrigin()    // solo para DEV, luego lo puedes restringir
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+    });
+});
+
+// 2. MVC + Swagger
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-
-// Usar la configuración centralizada que registra ApiVersioning y Swagger
-builder.Services.AddSVLConfig("AllowAll");
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "Deportes API",
+        Version = "v1"
+    });
+});
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// 3. Swagger
 if (app.Environment.IsDevelopment())
 {
-    var route = "api-deportes";
-    var serviceName = "DeportesAPI";
-
-    // Exponer los JSON de Swagger en /api-deportes/{documentName}/DeportesAPI.json
-    app.UseSwagger(options =>
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
     {
-        options.RouteTemplate = $"{route}/{{documentName}}/{serviceName}.json";
-    });
-
-    // UI en /api-deportes con un endpoint por cada versión registrada
-    app.UseSwaggerUI(options =>
-    {
-        options.RoutePrefix = route;
-
-        var provider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
-        foreach (var description in provider.ApiVersionDescriptions)
-        {
-            options.SwaggerEndpoint($"/{route}/{description.GroupName}/{serviceName}.json",
-                                   description.GroupName.ToUpperInvariant());
-        }
-
-        options.DocumentTitle = "Deportes API Documentation";
-        options.EnableDeepLinking();
-        options.DisplayRequestDuration();
-        options.DefaultModelsExpandDepth(-1);
+        // Swagger en /api-deportes
+        c.RoutePrefix = "api-deportes";
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Deportes API v1");
     });
 }
 
+// 4. Pipeline HTTP
 app.UseHttpsRedirection();
-app.UseCors(corsValue);
-
+app.UseCors(CORS_POLICY);
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();
