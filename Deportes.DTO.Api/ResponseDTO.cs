@@ -1,36 +1,38 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Deportes.DTO.Api
+﻿namespace Deportes.DTO.Api
 {
-    // Versión base (opcional)
-    public class ResponseDTO
+    /// <summary>
+    /// Respuesta estándar para servicios (REST/SOAP).
+    /// </summary>
+    public class ResponseDTO<T>
     {
         public bool Success { get; set; } = true;
-        public string? Message { get; set; }
-        public List<string> Errors { get; set; } = new();
-    }
 
-    // Versión genérica que usa tu interfaz
-    public class ResponseDTO<T> : ResponseDTO
-    {
-        public T? Data { get; set; }
+        // Puede ser DTO, List<DTO>, bool, etc.
+        public T? SingleResult { get; set; }
 
-        public ResponseDTO() { }
+        public string DisplayMessage { get; set; } = string.Empty;
+        public string ErrorMessage { get; set; } = string.Empty;
 
-        public ResponseDTO(T data)
+        // Helpers opcionales (te simplifican BSV)
+        public static ResponseDTO<T> Ok(T data, string msg = "")
         {
-            Data = data;
-            Success = true;
+            return new ResponseDTO<T>
+            {
+                Success = true,
+                SingleResult = data,
+                DisplayMessage = msg
+            };
         }
 
-        public static ResponseDTO<T> Ok(T data, string? message = null) =>
-            new ResponseDTO<T>(data) { Message = message };
-
-        public static ResponseDTO<T> Fail(string message, IEnumerable<string>? errors = null) =>
-            new ResponseDTO<T> { Success = false, Message = message, Errors = errors is null ? new() : new List<string>(errors) };
+        public static ResponseDTO<T> Fail(string error, string msg = "")
+        {
+            return new ResponseDTO<T>
+            {
+                Success = false,
+                SingleResult = default,
+                DisplayMessage = msg,
+                ErrorMessage = error
+            };
+        }
     }
 }

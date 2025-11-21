@@ -15,7 +15,14 @@
 
   <ItemGroup>
     <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="8.1.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="9.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Deportes.BLL.Api\Deportes.BLL.Api.csproj" />
+    <ProjectReference Include="..\Deportes.BSV.Api\Deportes.BSV.Api.csproj" />
+    <ProjectReference Include="..\Deportes.DAL.Api\Deportes.DAL.Api.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,13 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <!-- Añadir referencia al proyecto que contiene Deportes.CBL.Api.V1 -->
-    <ProjectReference Include="..\Deportes.CBL.Api\Deportes.CBL.Api.csproj" />
-  </ItemGroup>
+	<!-- ASP.NET Core para Routing/Endpoints -->
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<!-- SoapCore (la versión real que existe) -->
+	<ItemGroup>
+		<PackageReference Include="SoapCore" Version="1.2.1.9" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Deportes.CBL.Api\Deportes.CBL.Api.csproj" />
+		<ProjectReference Include="..\Deportes.CSV.Api\Deportes.CSV.Api.csproj" />
+	</ItemGroup>
+
 </Project>

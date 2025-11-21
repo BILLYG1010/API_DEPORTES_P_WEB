@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Deportes.DAL.Api\Deportes.DAL.Api.csproj" />
+    <ProjectReference Include="..\Deportes.DTO.Api\Deportes.DTO.Api.csproj" />
   </ItemGroup>
 
 </Project>

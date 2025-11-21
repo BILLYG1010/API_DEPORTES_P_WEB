@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Deportes.CBL.Api.V1;
 using Deportes.DAL.Api;
 using Deportes.DAL.Api.Entities;
 using Deportes.DTO.Api.Models;
@@ -17,48 +18,64 @@ namespace Deportes.BLL.Api
             _mapper = mapper;
         }
 
+        // ============================
+        // CRUD (ICrudBL)
+        // ============================
+
         public async Task<List<RolDTO>> ObtenerTodos()
         {
             var lista = await _context.rol
-                         .OrderBy(r => r.nombre)
-                         .ToListAsync();
+                .AsNoTracking()
+                .OrderBy(r => r.nombre)
+                .ToListAsync();
+
             return _mapper.Map<List<RolDTO>>(lista);
         }
 
         public async Task<RolDTO> ObtenerPorId(int id)
         {
             var entidad = await _context.rol
-                            .Where(r => r.id_rol == id)
-                            .FirstOrDefaultAsync();
+                .AsNoTracking()
+                .FirstOrDefaultAsync(r => r.id_rol == id);
+
+            if (entidad == null)
+                throw new ArgumentException($"Rol con ID {id} no encontrado");
+
             return _mapper.Map<RolDTO>(entidad);
         }
 
         public async Task<RolDTO> ObtenerPorNombre(string nombre)
         {
+            nombre = (nombre ?? "").Trim();
+
             var entidad = await _context.rol
-                            .Where(r => r.nombre == nombre)
-                            .FirstOrDefaultAsync();
+                .AsNoTracking()
+                .FirstOrDefaultAsync(r => r.nombre == nombre);
+
+            if (entidad == null)
+                throw new ArgumentException($"Rol con nombre '{nombre}' no encontrado");
+
             return _mapper.Map<RolDTO>(entidad);
         }
 
         public async Task<RolDTO> Crear(RolDTO modelo)
         {
-            // Validar que el nombre no exista
+            ValidarNombre(modelo.nombre);
+
+            var nombreNormalizado = modelo.nombre.Trim();
+
+            // nombre es UNIQUE en DB -> valida contra todos
             var nombreExistente = await _context.rol
-                .AnyAsync(r => r.nombre == modelo.nombre);
+                .AnyAsync(r => r.nombre == nombreNormalizado);
 
             if (nombreExistente)
-                throw new ArgumentException($"Ya existe un rol con el nombre {modelo.nombre}");
+                throw new ArgumentException($"Ya existe un rol con el nombre {nombreNormalizado}");
 
             var nuevoRol = _mapper.Map<rol>(modelo);
 
-            // Asignar valores por defecto
+            nuevoRol.nombre = nombreNormalizado;
             nuevoRol.creado_en = DateTime.Now;
             nuevoRol.actualizado_en = DateTime.Now;
-
-            // Validar campos requeridos
-            if (string.IsNullOrEmpty(modelo.nombre))
-                throw new ArgumentException("El nombre del rol es requerido");
 
             _context.rol.Add(nuevoRol);
             await _context.SaveChangesAsync();
@@ -68,26 +85,24 @@ namespace Deportes.BLL.Api
 
         public async Task<RolDTO> Actualizar(RolDTO modelo)
         {
+            ValidarNombre(modelo.nombre);
+
             var rolExistente = await _context.rol
                 .FirstOrDefaultAsync(r => r.id_rol == modelo.id_rol);
 
             if (rolExistente == null)
                 throw new ArgumentException($"Rol con ID {modelo.id_rol} no encontrado");
 
-            // Validar que el nombre no esté duplicado
+            var nombreNormalizado = modelo.nombre.Trim();
+
             var nombreDuplicado = await _context.rol
-                .AnyAsync(r => r.nombre == modelo.nombre && r.id_rol != modelo.id_rol);
+                .AnyAsync(r => r.nombre == nombreNormalizado && r.id_rol != modelo.id_rol);
 
             if (nombreDuplicado)
-                throw new ArgumentException($"Ya existe otro rol con el nombre {modelo.nombre}");
+                throw new ArgumentException($"Ya existe otro rol con el nombre {nombreNormalizado}");
 
-            // Actualizar campos
-            rolExistente.nombre = modelo.nombre;
+            rolExistente.nombre = nombreNormalizado;
             rolExistente.actualizado_en = DateTime.Now;
-
-            // Validar campos requeridos
-            if (string.IsNullOrEmpty(modelo.nombre))
-                throw new ArgumentException("El nombre del rol es requerido");
 
             _context.rol.Update(rolExistente);
             await _context.SaveChangesAsync();
@@ -97,27 +112,30 @@ namespace Deportes.BLL.Api
 
         public async Task<bool> Eliminar(int id)
         {
-            var rol = await _context.rol
+            var rolEntity = await _context.rol
                 .FirstOrDefaultAsync(r => r.id_rol == id);
 
-            if (rol == null)
+            if (rolEntity == null)
                 throw new ArgumentException($"Rol con ID {id} no encontrado");
 
-            // Verificar si tiene usuarios asociados
+            // Validar si tiene usuarios activos asociados
             var tieneUsuarios = await _context.usuario
                 .AnyAsync(u => u.id_rol == id && u.activo == 1);
 
             if (tieneUsuarios)
                 throw new InvalidOperationException("No se puede eliminar el rol porque tiene usuarios asociados");
 
-            _context.rol.Remove(rol);
-            var resultado = await _context.SaveChangesAsync();
-
-            return resultado > 0;
+            _context.rol.Remove(rolEntity);
+            return await _context.SaveChangesAsync() > 0;
         }
-    }
 
-    public interface IRolBL
-    {
+        // ============================
+        // Helper privado
+        // ============================
+        private static void ValidarNombre(string nombre)
+        {
+            if (string.IsNullOrWhiteSpace(nombre))
+                throw new ArgumentException("El nombre del rol es requerido");
+        }
     }
 }

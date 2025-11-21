@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Deportes.DTO.Api.Models;
 
 namespace Deportes.CBL.Api.V1
 {
-    internal class Ibitacora_certificacionBL
+    public interface IBitacoraCertificacionBL : ICrudBL<bitacora_certificacionDTO, int>
     {
+        Task<List<bitacora_certificacionDTO>> ObtenerPorFactura(int idFactura);
+        Task<List<bitacora_certificacionDTO>> ObtenerPorUsuario(int idUsuario);
+        Task<List<bitacora_certificacionDTO>> ObtenerPorTipoEvento(byte tipoEvento);
     }
 }

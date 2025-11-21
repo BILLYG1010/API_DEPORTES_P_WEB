@@ -1,25 +1,15 @@
-﻿using Deportes.BLL.Api;
-
-using Deportes.DAL.Api;
+﻿using AutoMapper;
+using Deportes.CBL.Api.V1;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Deportes.BLL.Api.Config
 {
     public static class ConfigureServices
     {
-        private const string DBCONNECTION = "DeportesConnection";
-
         public static IServiceCollection AddBLLConfig(this IServiceCollection services)
         {
-            services.AddSqlServer<DeportesContext>($"Name={DBCONNECTION}");
             services.AddAutoMapper(typeof(ConfigureMapsProfile).Assembly);
 
-            // Registra tus servicios BL aquí
             services.AddScoped<IBitacoraCertificacionBL, BitacoraCertificacionBL>();
             services.AddScoped<IClienteBL, ClienteBL>();
             services.AddScoped<IDetalleFacturaBL, DetalleFacturaBL>();

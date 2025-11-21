@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Deportes.DTO.Api.Models;
 
 namespace Deportes.CBL.Api.V1
 {
-    internal class IclienteBL
+    public interface IClienteBL : ICrudBL<ClienteDTO, int>
     {
+        Task<ClienteDTO> ObtenerPorNit(string nit);
+        Task<List<ClienteDTO>> BuscarPorNombre(string nombre);
     }
 }

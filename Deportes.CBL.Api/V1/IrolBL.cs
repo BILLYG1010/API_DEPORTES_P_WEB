@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Deportes.DTO.Api.Models;
 
 namespace Deportes.CBL.Api.V1
 {
-    internal class IrolBL
+    public interface IRolBL : ICrudBL<RolDTO, int>
     {
+        Task<RolDTO> ObtenerPorNombre(string nombre);
     }
 }

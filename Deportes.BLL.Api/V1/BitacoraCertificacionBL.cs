@@ -1,8 +1,10 @@
 ﻿using AutoMapper;
+using Deportes.CBL.Api.V1;
 using Deportes.DAL.Api;
 using Deportes.DAL.Api.Entities;
 using Deportes.DTO.Api.Models;
 using Microsoft.EntityFrameworkCore;
+
 
 namespace Deportes.BLL.Api
 {
@@ -142,7 +144,4 @@ namespace Deportes.BLL.Api
         }
     }
 
-    public interface IBitacoraCertificacionBL
-    {
-    }
 }
